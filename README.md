@@ -1,4 +1,4 @@
-**[alvinindra.space](https://alvinindra.space)**
+**[alvinindra.com](https://alvinindra.com)**
 
 My personal website powered by [Vite](https://vitejs.dev/)
 

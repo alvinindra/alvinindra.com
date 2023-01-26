@@ -1,8 +1,16 @@
 export default function useExperience() {
   const listExperience = ref([
     {
+      id: 0,
+      date: 'Dec 2022 - Present',
+      company: 'Dicoding Indonesia',
+      type: 'Contract',
+      job: 'Product Engineer - React',
+      desc: ['- Integrating Vitest (Unit Testing)',],
+    },
+    {
       id: 1,
-      date: 'Aug 2021 - Present',
+      date: 'Aug 2021 - Dec 2022',
       company: 'PT Paninti Hub Indonesia',
       type: 'Full-time',
       job: 'Front-End Developer & Team Lead',

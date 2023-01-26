@@ -8,7 +8,7 @@ import { isDark, toggleDark } from '~/composables'
       <router-link to="/">
         <div class="logo">
           <span class="logo__mark">&gt;</span>
-          <span class="logo__text <sm:hidden">alvinindra.space</span>
+          <span class="logo__text <sm:hidden">alvinindra.com</span>
           <span class="logo__text sm:hidden">AIP</span>
           <span class="logo__cursor"></span>
         </div>
