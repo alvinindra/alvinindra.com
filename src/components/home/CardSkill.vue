@@ -18,9 +18,9 @@ defineProps({
       <div class="mb-2 text-lg">
         {{ skill.title }}
       </div>
-      <div class="w-min bg-green-500 text-white dark:bg-white dark:text-dark-400 min-w-max px-2 rounded-md">
+      <!-- <div class="w-min bg-green-500 text-white dark:bg-white dark:text-dark-400 min-w-max px-2 rounded-md">
         {{ skill.skill }}
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

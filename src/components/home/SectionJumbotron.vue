@@ -72,12 +72,10 @@ const cardStyle = computed(() => ({
         Hi, I'm Alvin Indra Pratama
       </h2>
       <h1 class="text-xl sm:text-3xl text-green-500 dark:text-white font-bold mb-2 sm:mb-5 animated animate-delay-300 animate-fadeInUp">
-        Front-End Developer
+        Product Engineer - React
       </h1>
       <p class="text-md sm:text-lg text-justify mb-4 animated animate-delay-400 animate-fadeInUp">
-        A Front-End Developer with 2+ years of experience.
-        Now working on PT Paninti Hub Indonesia as Front-End Developer for the Web Platform Team.
-        Maintaining 4+ web application and guiding a new Front-End Developer to work with company.
+        A Product Engineer - React, Ex Frontend Developer with 3 years of experience focus on Vue.js. For now focusing on React.js & Next.js. My goal is to improve the application into efficient and optimized, learning React, typescript and build the design system.
       </p>
       <ListInfo class="animated animate-delay-500 animate-fadeInUp" />
     </div>
@@ -94,7 +92,7 @@ const cardStyle = computed(() => ({
             <img
               class="object-contain layer-1"
               :style="layer1"
-              src="../../assets/images/jumbotron/ProfileBackground.png"
+              src="../../assets/images/jumbotron/pp-dicoding-removebg-cropped.png"
               alt=""
             >
             <img
@@ -121,9 +119,10 @@ const cardStyle = computed(() => ({
   @apply ml-auto <md:m-auto;
 }
 
-.dark {
-  .layer-1 {
-    filter: grayscale(1);
-  }
-}
+// If want profile become gray in dark theme
+// .dark {
+//   .layer-1 {
+//     filter: grayscale(1);
+//   }
+// }
 </style>

@@ -219,6 +219,18 @@ export function useProjects() {
 
   const listSkills = shallowRef([
     {
+      id: 9,
+      title: 'React JS',
+      skill: 'Intermediate',
+      icon: LogosReact,
+    },
+    {
+      id: 10,
+      title: 'Nextjs',
+      skill: 'Beginner',
+      icon: isDark ? LogosDarkNextjs : LogosNextjs,
+    },
+    {
       id: 1,
       title: 'Vue JS',
       skill: 'Expert',
@@ -265,18 +277,6 @@ export function useProjects() {
       title: 'Nuxt',
       skill: 'Expert',
       icon: LogosNuxt,
-    },
-    {
-      id: 9,
-      title: 'React JS',
-      skill: 'Intermediate',
-      icon: LogosReact,
-    },
-    {
-      id: 10,
-      title: 'Nextjs',
-      skill: 'Beginner',
-      icon: isDark ? LogosDarkNextjs : LogosNextjs,
     },
   ])
 
