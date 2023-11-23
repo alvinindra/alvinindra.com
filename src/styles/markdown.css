@@ -2,7 +2,7 @@
 @import 'prism-theme-vars/base.css';
 
 .prose h1 {
-  @apply text-dark-400 dark:text-current;
+  @apply text-dark-400 dark:text-white;
   font-size: 2.625rem;
 }
 

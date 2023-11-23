@@ -2,9 +2,6 @@
   <Header />
   <main class="app-container">
     <router-view />
-    <footer class="relative text-center left-0 bottom-0 py-3 w-full">
-      Made by Alvin Indra &copy; 2022
-    </footer>
   </main>
 </template>
 

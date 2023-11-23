@@ -8,7 +8,7 @@ const featuredProjects = computed(() => listProjects.value.filter(item => item.f
 
 <template>
   <div class="text-left">
-    <h1 class="text-2xl sm:text-3xl mb-5 font-bold">
+    <h1 class="text-2xl sm:text-3xl mb-5 font-bold dark:text-white">
       Featured Projects
     </h1>
     <div class="list-projects mb-8">

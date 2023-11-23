@@ -72,10 +72,10 @@ const cardStyle = computed(() => ({
         Hi, I'm Alvin Indra Pratama
       </h2>
       <h1 class="text-xl sm:text-3xl text-green-500 dark:text-white font-bold mb-2 sm:mb-5 animated animate-delay-300 animate-fadeInUp">
-        Product Engineer - React
+        Frontend Engineer
       </h1>
       <p class="text-md sm:text-lg text-justify mb-4 animated animate-delay-400 animate-fadeInUp">
-        A Product Engineer - React, Ex Frontend Developer with 3 years of experience focus on Vue.js. For now focusing on React.js & Next.js. My goal is to improve the application into efficient and optimized, learning React, typescript and build the design system.
+        A Frontend Engineer with 4 years of experience. Focusing on Vue.js and React.js, Create technical documentation and interview candidate, Maintaining 5+ web application and guiding a new Frontend Developer to work with company. My goal is to improve the project into reusable, efficient and optimized.
       </p>
       <ListInfo class="animated animate-delay-500 animate-fadeInUp" />
     </div>

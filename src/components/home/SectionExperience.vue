@@ -5,7 +5,7 @@ const { listExperience } = useExperience()
 
 <template>
   <div class="text-left">
-    <h1 class="text-2xl sm:text-3xl mb-5 font-bold">
+    <h1 class="text-2xl sm:text-3xl mb-5 font-bold dark:text-white">
       My Experience
     </h1>
     <div class="relative">
