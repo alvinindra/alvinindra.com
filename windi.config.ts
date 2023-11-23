@@ -18,6 +18,7 @@ export default defineConfig({
         animationDelaySpeed: 1000,
       },
     }),
+    require('windicss/plugin/line-clamp'),
   ],
   theme: {
     extend: {

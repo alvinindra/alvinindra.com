@@ -10,7 +10,6 @@ declare module 'vue' {
     CarbonFolderDetails: typeof import('~icons/carbon/folder-details')['default']
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonLogoLinkedin: typeof import('~icons/carbon/logo-linkedin')['default']
-    CarbonLogoTwitter: typeof import('~icons/carbon/logo-twitter')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     CardProject: typeof import('./components/home/CardProject.vue')['default']

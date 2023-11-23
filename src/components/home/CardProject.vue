@@ -16,7 +16,7 @@ defineProps({
         {{ project.name }}
       </h1>
       <div class="flex flex-col">
-        <div class="mb-4 text-sm dark:text-light-900 h-60px <sm:h-auto">{{ project.description }}</div>
+        <div class="mb-4 text-sm dark:text-light-900 h-60px <sm:h-auto line-clamp-3">{{ project.description }}</div>
         <div class="mt-auto">
           <div class="flex relative">
             <component

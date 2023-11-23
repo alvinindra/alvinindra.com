@@ -14,6 +14,7 @@ import LogosTypescript from '~icons/logos/typescript-icon'
 import LogosPwa from '~icons/logos/pwa'
 import LogosDarkPwa from '~icons/simple-icons/pwa'
 import LogosReact from '~icons/logos/react'
+import LogosReactQuery from '~icons/logos/react-query-icon'
 
 import coverParentinghub from '~/assets/images/projects/parentinghub.png'
 import coverPaninti from '~/assets/images/projects/paninti.png'
@@ -21,17 +22,52 @@ import coverPanintiPartner from '~/assets/images/projects/panintipartner.png'
 import coverRestoku from '~/assets/images/projects/restoku.png'
 import coverQuranku from '~/assets/images/projects/cover-quranku.jpg'
 import coverCovid19 from '~/assets/images/projects/cover-covid19.jpg'
+import coverDicodingJobs from '~/assets/images/projects/cover-dicodingjobs.jpeg'
 
 export function useProjects() {
   const isDark = useDark()
   const listProjects = shallowRef([
+    {
+      id: 7,
+      name: 'Dicoding Jobs',
+      url: 'https://jobs.dicoding.com/',
+      description: `Dicoding Jobs is an online job search and recruitment platform service to make it easier for job seekers to find work while also helping the industry find talent according to their needs.
+
+      This service is provided by PT Presentologics, the parent company of PT Dicoding Akademi Indonesia, and/or its affiliates.
+      
+      A number of domestic and foreign company partners have entrusted their job hunting to Dicoding Jobs.`,
+      cover: coverDicodingJobs,
+      featured: true,
+      techstack: [
+        {
+          id: 1,
+          name: 'Next.Js',
+          icon: LogosNextjs,
+        },
+        {
+          id: 2,
+          name: 'Reactjs',
+          icon: LogosReact,
+        },
+        {
+          id: 3,
+          name: 'Bootstrap',
+          icon: LogosBootstrap,
+        },
+        {
+          id: 4,
+          name: 'React Query',
+          icon: LogosReactQuery,
+        },
+      ],
+    },
     {
       id: 1,
       name: 'Parenting Hub',
       url: 'https://parentinghub.co.id',
       description: 'An educational media site and information about reviews, the growth and development of children and parenting.',
       cover: coverParentinghub,
-      featured: true,
+      featured: false,
       techstack: [
         {
           id: 1,
@@ -227,7 +263,7 @@ export function useProjects() {
     {
       id: 10,
       title: 'Nextjs',
-      skill: 'Beginner',
+      skill: 'Intermediate',
       icon: isDark ? LogosDarkNextjs : LogosNextjs,
     },
     {
@@ -245,7 +281,7 @@ export function useProjects() {
     {
       id: 3,
       title: 'TypeScript',
-      skill: 'Advanced',
+      skill: 'Intermediate',
       icon: LogosTypescript,
     },
     {
