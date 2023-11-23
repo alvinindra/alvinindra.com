@@ -37,14 +37,14 @@ import { isDark, toggleDark } from '~/composables'
           </ul>
         </nav>
         <span class="theme-toggle">
-          <button
+          <a
             class="icon-btn mx-2 text-size-1.2rem leading-0 !outline-none"
             title="Toggle Dark"
-            @click="toggleDark()"
+            @click="toggleDark"
           >
             <carbon-moon v-if="isDark" />
             <carbon-sun v-else />
-          </button>
+          </a>
         </span>
       </span>
     </span>

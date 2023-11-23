@@ -12,8 +12,8 @@
       <carbon-logo-github />
     </a>
 
-    <!-- <a class="icon-btn mx-2" rel="noreferrer" href="https://twitter.com/alvinindrapra" target="_blank" title="Twitter">
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://twitter.com/alvinindrapra" target="_blank" title="Twitter">
       <carbon-logo-twitter />
-    </a> -->
+    </a>
   </div>
 </template>
