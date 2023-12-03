@@ -75,9 +75,9 @@ const cardStyle = computed(() => ({
         Frontend Engineer
       </h1>
       <p class="text-md sm:text-lg text-justify mb-4 animated animate-delay-400 animate-fadeInUp">
-        A Frontend Engineer with 4 years of experience. Focusing on Vue.js and React.js, Create technical documentation and interview candidate, Maintaining 5+ web application and guiding a new Frontend Developer to work with company. My goal is to improve the project into reusable, efficient and optimized.
+        An Intermediate Frontend Engineer with 4 years of experience. Focusing on tech stack Vue.js and React.js, I am passionate about front-end web development and continue to explore new technologies to improve user experience. My expertise lies in turning designs into high-quality code, leveraging my skills in quickly creating web design, accessibility, and performance.
       </p>
-      <ListInfo class="animated animate-delay-500 animate-fadeInUp" />
+      <ListInfo class="animated animate-delay-600 animate-fadeInUp" />
     </div>
     <div :style="targetStyle" class="mb-5 <sm:py-5 md:mb-0 animated animate-delay-200 animate-fadeIn">
       <div :style="containerStyle" class="container-style">

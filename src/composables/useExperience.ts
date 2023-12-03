@@ -2,11 +2,11 @@ export default function useExperience() {
   const listExperience = ref([
     {
       id: 0,
-      date: 'Dec 2022 - Present',
+      date: 'Dec 2022 - Dec 2023',
       company: 'Dicoding Indonesia',
       type: 'Contract',
       job: 'Product Engineer - React',
-      desc: ['- Integrating Vitest (Unit Testing)',],
+      desc: ['- Building core features and premium features in Dicoding Jobs with React.js and Next.js', '- Building SEO Dicoding Jobs from scratch. Integrating Google Analytics, Dashboard Lookerstudio, Search Console.'],
     },
     {
       id: 1,
@@ -26,7 +26,7 @@ export default function useExperience() {
       company: 'PT Paninti Hub Indonesia',
       type: 'Full-time',
       job: 'Front-End Developer',
-      desc: ['- Maintaining 4+ web apps, mostly in Vue.js',
+      desc: ['- Maintaining 5+ web apps, mostly in Vue.js',
         '- Guiding Frontend Developers to have best practices in Nuxt.js, SCSS and Slicing Design'],
     },
     {
@@ -35,7 +35,7 @@ export default function useExperience() {
       type: 'Freelance',
       company: 'Dicoding Indonesia',
       job: 'External Code Reviewer',
-      desc: ['- Reviewer at class Progressive Web Apps'],
+      desc: ['- Reviewer at class Progressive Web Apps', '- Reviewer at class Learn Basic Web Programming', '- Reviewer at class Learn to Build Web Apps with React'],
     },
     {
       id: 4,
