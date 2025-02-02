@@ -1,6 +1,14 @@
 export default function useExperience() {
   const listExperience = ref([
     {
+      id: 11,
+      date: 'Jan 2024 - Present',
+      company: 'Antikode',
+      type: 'Full-time',
+      job: 'Frontend Developer',
+      desc: ['- Contributes to the development, maintenance, and enhancement of 9+ projects.', '- Collaborating with team division and project manager.', '- Layouting dan developing project features.', 'Client: XL Satu, XL.co.id, Massive Music, Alife by Vision, Heartology, Axis, Chandra Asri, FTW Jakarta.'],
+    },
+    {
       id: 0,
       date: 'Dec 2022 - Dec 2023',
       company: 'Dicoding Indonesia',

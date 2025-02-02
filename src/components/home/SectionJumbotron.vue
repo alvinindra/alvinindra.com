@@ -45,6 +45,7 @@ const layer1 = computed(() => ({
 }))
 const layer2 = computed(() => ({
   ...layerBase,
+  scale: 0.85,
   transform: isMobile.value
     ? `translateX(${props.parallax?.tilt * 10}px) translateY(${props.parallax?.roll * 20 + 150}px) scale(0.35)`
     : `translateX(${props.parallax?.tilt * 10}px) translateY(${props.parallax?.roll * 20 + 130}px) scale(0.5)`,
@@ -72,14 +73,14 @@ const cardStyle = computed(() => ({
         Hi, I'm Alvin Indra Pratama
       </h2>
       <h1 class="text-xl sm:text-3xl text-green-500 dark:text-white font-bold mb-2 sm:mb-5 animated animate-delay-300 animate-fadeInUp">
-        Frontend Engineer
+        Frontend Developer
       </h1>
       <p class="text-md sm:text-lg text-justify mb-4 animated animate-delay-400 animate-fadeInUp">
-        An Intermediate Frontend Engineer with 4 years of experience. Focusing on tech stack Vue.js and React.js, I am passionate about front-end web development and continue to explore new technologies to improve user experience. My expertise lies in turning designs into high-quality code, leveraging my skills in quickly creating web design, accessibility, and performance.
+        An Intermediate Frontend Engineer with 5 years of experience. Focusing on tech stack Vue.js and React.js, I am passionate about front-end web development and continue to explore new technologies to improve user experience. My expertise lies in turning designs into high-quality code, leveraging my skills in quickly creating web design, accessibility, and performance.
       </p>
       <ListInfo class="animated animate-delay-600 animate-fadeInUp" />
     </div>
-    <div :style="targetStyle" class="mb-5 <sm:py-5 md:mb-0 animated animate-delay-200 animate-fadeIn">
+    <div :style="targetStyle" class="mb-5 <sm:py-5 md:mb-0 animated animate-delay-500 animate-fadeInUp">
       <div :style="containerStyle" class="container-style">
         <div :style="cardStyle" class="!dark:bg-dark-200">
           <div :style="cardWindowStyle">
@@ -98,7 +99,7 @@ const cardStyle = computed(() => ({
             <img
               class="object-contain"
               :style="layer2"
-              src="../../assets/images/jumbotron/vuejs.png"
+              src="../../assets/images/jumbotron/react-3d.png"
               alt=""
             >
             <img

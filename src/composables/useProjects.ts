@@ -28,6 +28,31 @@ export function useProjects() {
   const isDark = useDark()
   const listProjects = shallowRef([
     {
+      id: 8,
+      name: 'XL.CO.ID',
+      url: 'https://xl.co.id/',
+      description: `Contribute to the development of the XL.CO.ID website, a website that provides information about XL products and services, as well as the latest promos and events.`,
+      cover: "https://media.licdn.com/dms/image/v2/D562DAQEqi1pPKVgH0w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1712127032567?e=1739127600&v=beta&t=zp1tbpAq191cJUm2uldiTsrLTbE3CpehJli0V-e5IQU",
+      featured: true,
+      techstack: [
+        {
+          id: 1,
+          name: 'Next.Js',
+          icon: LogosNextjs,
+        },
+        {
+          id: 2,
+          name: 'Reactjs',
+          icon: LogosReact,
+        },
+        {
+          id: 3,
+          name: 'Bootstrap',
+          icon: LogosBootstrap,
+        },
+      ],
+    },
+    {
       id: 7,
       name: 'Dicoding Jobs',
       url: 'https://jobs.dicoding.com/',
@@ -162,6 +187,81 @@ export function useProjects() {
       ],
     },
     {
+      id: 9,
+      name: 'Massive Music',
+      url: 'https://www.massivemusic.co.id/',
+      description: 'Massive Music is home for more than 1,200 Indonesian Composers. As the Leading Music Publisher in Indonesia with the largest market share for local catalogue, Massive Music is Home for Songwriter and Heaven for Song User. We are making Music Publishing accessible for everyone.',
+      cover: "https://media.licdn.com/dms/image/v2/D562DAQGiZU2nhNCp_Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737988479344?e=1739127600&v=beta&t=Fj84lVTyP_qnEZXw3T31jo58v3wV44kkYIvrL4KZIno",
+      featured: false,
+      techstack: [
+        {
+          id: 2,
+          name: 'Next.js',
+          icon: isDark ? LogosDarkNextjs : LogosNextjs,
+        },
+        {
+          id: 3,
+          name: 'Tailwind CSS',
+          icon: LogosTailwind,
+        },
+        {
+          id: 4,
+          name: 'TypeScript',
+          icon: LogosTypescript,
+        },
+      ],
+    },
+    {
+      id: 10,
+      name: 'Axis Digital Mutant',
+      url: 'https://axis.co.id/digitalmutant',
+      description: 'Building Axis Digital Mutant web with Next.js and Tailwind CSS. Integrating API Generate Mutant, Layouting Full Pages',
+      cover: "https://media.licdn.com/dms/image/v2/D562DAQG6BLfzNmXvEA/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1722223933161?e=1739127600&v=beta&t=LTZkXjGbJCXQaWhiyt7wb07YcX6QLekB_R3UITt8D3A",
+      featured: false,
+      techstack: [
+        {
+          id: 2,
+          name: 'Next.js',
+          icon: isDark ? LogosDarkNextjs : LogosNextjs,
+        },
+        {
+          id: 3,
+          name: 'Tailwind CSS',
+          icon: LogosTailwind,
+        },
+        {
+          id: 4,
+          name: 'TypeScript',
+          icon: LogosTypescript,
+        },
+      ],
+    },
+    {
+      id: 11,
+      name: 'FTW',
+      url: 'https://ftwjakarta.id/',
+      description: 'FTW is not just a creative agency. FTW is an agency with extensive experience across diverse industries, brands, and regions, delivering effective results through proven work processes.',
+      cover: "https://media.licdn.com/dms/image/v2/D562DAQEcAzQUWN9CgA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1722427718715?e=1739127600&v=beta&t=v-NQCb9vFjY1PuWTOsYGJzn1R_ES-h6jg8WLj_c3frY",
+      featured: false,
+      techstack: [
+        {
+          id: 2,
+          name: 'Next.js',
+          icon: isDark ? LogosDarkNextjs : LogosNextjs,
+        },
+        {
+          id: 3,
+          name: 'Tailwind CSS',
+          icon: LogosTailwind,
+        },
+        {
+          id: 4,
+          name: 'TypeScript',
+          icon: LogosTypescript,
+        },
+      ],
+    },
+    {
       id: 4,
       name: 'Restoku',
       url: 'https://restoku.netlify.app',
@@ -197,7 +297,7 @@ export function useProjects() {
       url: 'https://alquran-ku.netlify.app/',
       description: 'Al-Quran reading application with Indonesian translation verses.',
       cover: coverQuranku,
-      featured: true,
+      featured: false,
       techstack: [
         {
           id: 1,

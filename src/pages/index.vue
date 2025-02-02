@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const target = ref(null)
+const target = ref<any>(null)
 const parallax = reactive(useParallax(target))
 </script>
 
