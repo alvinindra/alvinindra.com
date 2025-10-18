@@ -1,5 +1,5 @@
-import { BrandContextMenu } from "@/components/brand-context-menu";
 import { AIPMark } from "@/components/aip-mark";
+import { BrandContextMenu } from "@/components/brand-context-menu";
 import { cn } from "@/lib/utils";
 
 export function ProfileCover() {
