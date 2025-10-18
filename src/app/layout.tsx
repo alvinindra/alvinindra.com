@@ -47,11 +47,11 @@ export const metadata: Metadata = {
   keywords: SITE_INFO.keywords,
   authors: [
     {
-      name: "ncdai",
+      name: "alvinindra",
       url: SITE_INFO.url,
     },
   ],
-  creator: "ncdai",
+  creator: "alvinindra",
   openGraph: {
     siteName: SITE_INFO.name,
     url: "/",
@@ -71,22 +71,22 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@iamncdai", // Twitter username
+    creator: "@alvinindrapra", // Twitter username
     images: [SITE_INFO.ogImage],
   },
   icons: {
     icon: [
       {
-        url: "https://assets.chanhdai.com/images/favicon.ico",
+        url: "/images/icons/favicon.svg",
         sizes: "any",
       },
       {
-        url: "https://assets.chanhdai.com/images/favicon.svg",
+        url: "/images/icons/favicon.svg",
         type: "image/svg+xml",
       },
     ],
     apple: {
-      url: "https://assets.chanhdai.com/images/apple-touch-icon.png",
+      url: "/images/apple-icon.png",
       type: "image/png",
       sizes: "180x180",
     },
