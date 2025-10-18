@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
       start: "01.2023",
       end: "12.2023",
     },
-    logo: "https://jobs.dicoding.com/favicon-32x32.png",
+    logo: "/images/company-icon/dicoding.png",
     link: "https://jobs.dicoding.com/",
     skills: ["Next.js", "React", "Bootstrap", "React Query"],
     description: `Dicoding Jobs is an online job search and recruitment platform service to make it easier for job seekers to find work while also helping the industry find talent according to their needs.
@@ -47,6 +47,7 @@ A number of domestic and foreign company partners have entrusted their job hunti
       start: "01.2019",
       end: "12.2022",
     },
+    logo: "/images/projects-icon/parentinghub.png",
     link: "https://parentinghub.co.id",
     skills: ["Vue.js", "Laravel", "Bootstrap 4", "Element UI"],
     description:
@@ -59,6 +60,7 @@ A number of domestic and foreign company partners have entrusted their job hunti
       start: "01.2021",
       end: "05.2022",
     },
+    logo: "/images/company-icon/paninti-icon.jpg",
     link: "https://paninti.com",
     skills: ["Vue.js", "Nuxt", "Element UI", "Bootstrap 4", "SASS/SCSS"],
     description:

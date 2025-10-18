@@ -35,8 +35,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "dicoding",
     companyName: "Dicoding Indonesia",
-    companyLogo:
-      "https://assets.cdn.dicoding.com/original/commons/new-ui-logo.png",
+    companyLogo: "/images/company-icon/dicoding.png",
     positions: [
       {
         id: "dicoding-pe-2022",
