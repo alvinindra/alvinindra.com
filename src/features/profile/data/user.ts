@@ -38,8 +38,7 @@ Hi! I'm Alvin Indra Pratama — a Frontend Developer passionate about creating h
 With 5+ years of experience, I specialize in building high-quality web using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
   `,
   avatar: "/images/square-alvin.jpg",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1759581475",
+  ogImage: "/images/og-image.png",
   // namePronunciationUrl: "/audio/alvin-indra-pratama.mp3",
   keywords: [
     "alvin",
