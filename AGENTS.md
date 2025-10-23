@@ -260,10 +260,9 @@ When adapting this codebase, ensure ALL personal information is replaced:
 
 ## Deployment
 
-### Vercel Deployment
+### Netlify Deployment
 
 - Automatic deployment from GitHub
-- Environment variables configured in Vercel dashboard
 - Build command: `pnpm build`
 - Output directory: `.next`
 
