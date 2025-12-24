@@ -19,10 +19,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
     description: "@alvinindrapra",
     href: "https://x.com/alvinindrapra",
   },
-  {
-    icon: "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/256x256-1.png",
-    title: "TikTok",
-    description: "@anak.frontend",
-    href: "https://www.tiktok.com/@anak.frontend",
-  },
+  // {
+  //   icon: "https://sf16-sg.tiktokcdn.com/obj/eden-sg/uvkuhyieh7lpqpbj/pwa/256x256-1.png",
+  //   title: "TikTok",
+  //   description: "@anak.frontend",
+  //   href: "https://www.tiktok.com/@anak.frontend",
+  // },
 ]
