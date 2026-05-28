@@ -26,11 +26,6 @@ export const USER: User = {
       company: "Antikode",
       website: "https://antikode.com?ref=alvinindra.com",
     },
-    // {
-    //   title: "Founder",
-    //   company: "Anak Frontend",
-    //   website: "https://www.instagram.com/anak.frontend",
-    // },
   ],
   about: `
 Hi! I'm Alvin Indra Pratama — a Frontend Developer passionate about creating high-performance, well-designed web applications that deliver exceptional user experiences.
