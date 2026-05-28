@@ -69,7 +69,6 @@ const components: MDXRemoteProps["components"] = {
     );
   },
   pre({
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     __withMeta__,
     __rawString__,
 

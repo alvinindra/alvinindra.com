@@ -1,17 +1,9 @@
-import { FlatCompat } from "@eslint/eslintrc";
+import next from "eslint-config-next";
+import prettier from "eslint-config-prettier/flat";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
 
 /**
- * @type {import("eslint").Linter.Config}
+ * @type {import("eslint").Linter.Config[]}
  * */
 const eslintConfig = [
   {
@@ -24,7 +16,8 @@ const eslintConfig = [
       "packages/ncdai/dist/**",
     ],
   },
-  ...compat.extends("next/core-web-vitals", "next/typescript", "prettier"),
+  ...next,
+  prettier,
   {
     files: ["**/*.{ts,tsx}"],
     rules: {
