@@ -27,7 +27,7 @@ This guide provides essential information for AI agents working with the alvinin
 - **Framework**: Next.js 15 (App Router)
 - **Styling**: Tailwind CSS v4
 - **UI Components**: shadcn/ui + custom components
-- **Package Manager**: pnpm
+- **Package Manager**: Bun
 - **Language**: TypeScript
 - **Content**: MDX for blog posts
 - **Deployment**: Netlify
@@ -87,10 +87,10 @@ packages/
 
 ```bash
 # Build registry internally
-pnpm registry:internal:build
+bun registry:internal:build
 
 # Build shadcn registry
-pnpm registry:build
+bun registry:build
 ```
 
 Auto-generated files (DO NOT EDIT):
@@ -105,13 +105,13 @@ Auto-generated files (DO NOT EDIT):
 
 ```bash
 # Install dependencies
-pnpm install
+bun install
 
 # Start development server
-pnpm dev  # Runs on port 1408
+bun dev  # Runs on port 1408
 
 # Build for production
-pnpm build
+bun build
 ```
 
 ### Code Standards
@@ -199,7 +199,7 @@ See `.env.example` for required variables:
 2. Implement component with proper TypeScript types
 3. Add to `src/registry/registry-components.ts`
 4. Create example in `src/registry/examples/`
-5. Build registry: `pnpm registry:build`
+5. Build registry: `bun registry:build`
 
 ### Updating User Information
 
@@ -263,24 +263,24 @@ When adapting this codebase, ensure ALL personal information is replaced:
 ### Netlify Deployment
 
 - Automatic deployment from GitHub
-- Build command: `pnpm build`
+- Build command: `bun build`
 - Output directory: `.next`
 
 ### Build Commands
 
 ```bash
-pnpm build          # Production build
-pnpm start          # Start production server
-pnpm preview        # Build and preview locally
+bun build          # Production build
+bun start          # Start production server
+bun preview        # Build and preview locally
 ```
 
 ## Contributing
 
 ### Code Quality
 
-- Run `pnpm lint` before committing
-- Use `pnpm format:write` for code formatting
-- Check types with `pnpm check-types`
+- Run `bun lint` before committing
+- Use `bun format:write` for code formatting
+- Check types with `bun check-types`
 
 ### Testing Registry Components
 

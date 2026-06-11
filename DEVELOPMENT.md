@@ -7,7 +7,7 @@ This guide provides instructions on how to set up and run the project locally.
 Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (Latest LTS version recommended)
-- [pnpm](https://pnpm.io/)
+- [Bun](https://bun.sh/)
 - [Git](https://git-scm.com/)
 
 ## Setup
@@ -22,7 +22,7 @@ cd minimal-portfolio
 ### 2. Install dependencies
 
 ```bash
-pnpm i
+bun i
 ```
 
 ### 3. Configure Environment Variables
@@ -38,7 +38,7 @@ Then, update the necessary environment variables inside `.env.local`.
 ### 4. Run the development server
 
 ```bash
-pnpm dev
+bun dev
 ```
 
 The application should now be available at http://localhost:2001
@@ -46,11 +46,11 @@ The application should now be available at http://localhost:2001
 ## Building for Production
 
 ```bash
-pnpm build
+bun build
 ```
 
 After building, start the application with:
 
 ```bash
-NODE_ENV=production pnpm start
+NODE_ENV=production bun start
 ```
