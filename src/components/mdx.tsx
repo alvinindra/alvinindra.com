@@ -119,6 +119,7 @@ const components: MDXRemoteProps["components"] = {
     />
   ),
   Step: ({ className, ...props }: React.ComponentProps<"h3">) => (
+    // eslint-disable-next-line jsx-a11y/heading-has-content -- content comes from MDX children via props
     <h3 className={cn("step", className)} {...props} />
   ),
   Tabs,

@@ -27,6 +27,7 @@ function ThemeOption({
           ? "text-zinc-950 dark:text-zinc-50"
           : "text-zinc-400 hover:text-zinc-950 dark:text-zinc-500 dark:hover:text-zinc-50"
       )}
+      // eslint-disable-next-line jsx-a11y/prefer-tag-over-role -- styled button acting as radio inside a radiogroup
       role="radio"
       aria-checked={isActive}
       aria-label={`Switch to ${value} theme`}

@@ -177,7 +177,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
     [playClick, setTheme]
   );
 
-  const { blogLinks, componentLinks } = useMemo(
+  const { blogLinks, componentLinks: _componentLinks } = useMemo(
     () => ({
       blogLinks: posts
         .filter((post) => post.metadata?.category !== "components")
