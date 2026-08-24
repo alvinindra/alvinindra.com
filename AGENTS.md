@@ -24,7 +24,7 @@ This guide provides essential information for AI agents working with the alvinin
 
 ### Tech Stack
 
-- **Framework**: Next.js 15 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Styling**: Tailwind CSS v4
 - **UI Components**: shadcn/ui + custom components
 - **Package Manager**: Bun
@@ -117,7 +117,7 @@ bun build
 ### Code Standards
 
 - **TypeScript**: Strict mode enabled
-- **ESLint**: Next.js configuration
+- **Oxlint**: configured via `.oxlintrc.json`
 - **Prettier**: Code formatting
 - **File naming**: kebab-case for files, PascalCase for components
 
