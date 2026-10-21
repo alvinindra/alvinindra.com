@@ -30,7 +30,7 @@ export const USER: User = {
   about: `
 Hi! I'm Alvin Indra Pratama — a Frontend Developer passionate about creating high-performance, well-designed web applications that deliver exceptional user experiences.
 
-With 5+ years of experience, I specialize in building high-quality web using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+With 6+ years of experience, I specialize in building high-quality web using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
   `,
   avatar: "/images/square-alvin.jpg",
   ogImage: "/images/og-image.png",
